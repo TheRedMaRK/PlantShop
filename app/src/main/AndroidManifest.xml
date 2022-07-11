@@ -14,9 +14,17 @@
         android:theme="@style/Theme.PlantShop"
         tools:targetApi="31">
         <activity
+            android:name=".PaeoniaLactifloraActivity"
+            android:exported="false"
+            android:parentActivityName=".FlowerActivity"/>
+        <activity
+            android:name=".FlowerActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".AppleActivity"
             android:exported="false"
-            android:parentActivityName=".FruitActivity"/>
+            android:parentActivityName=".FruitActivity" />
         <activity
             android:name=".FruitActivity"
             android:exported="false"

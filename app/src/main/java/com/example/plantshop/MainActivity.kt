@@ -29,6 +29,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, FruitActivity::class.java)
             startActivity(intent)
         }
+
+        findViewById<Button>(R.id.btnFlowers).setOnClickListener {
+            val intent = Intent(this,FlowerActivity::class.java)
+            startActivity(intent)
+
+        }
     }
 
 }
