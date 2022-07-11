@@ -4,44 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20sp"
-    tools:context=".PaeoniaLactifloraActivity">
+    tools:context=".AstilbeActivity"
+    android:padding="20sp">
 
     <ImageView
-        android:id="@+id/imgflow1"
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="400sp"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/paeonia_lactiflora" />
+        app:srcCompat="@drawable/astilbe" />
 
     <TextView
-        android:id="@+id/lblflow1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:gravity="center"
-        android:text="Paeonia Lactiflora"
-        android:textColor="#4e10c2"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgflow1" />
-
-    <TextView
-        android:id="@+id/lblDes1"
+        android:id="@+id/txtplant1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Paeonia lactiflora Bridal Shower has a stunning double lemon-white peony flower that appears from late spring. It is a clumping perennial and requires plenty of room to grow so plant away from the roots of trees and shrubs. Prefers sunny to lightly shaded spot and moist soil. Makes a fantastic cut flower. 1m x 1m at maturity. "
-        android:textColor="#5d458a"
-        android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:textSize="20sp"
-        android:textStyle="italic"
+        android:text="Astilbe"
+        android:textColor="#042106"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textdes1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblflow1" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textdes1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Astilbes brighten up any shady area of your garden with their vibrant midsummer colour. Plume-like flowers with mixed colours and deep green foliage. Performs best in partial shades. Grows to 60cms."
+        android:textColor="#07540c"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

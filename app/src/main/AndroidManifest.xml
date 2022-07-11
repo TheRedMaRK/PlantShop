@@ -14,13 +14,21 @@
         android:theme="@style/Theme.PlantShop"
         tools:targetApi="31">
         <activity
+            android:name=".AstilbeActivity"
+            android:exported="false"
+            android:parentActivityName=".PlantActivity"/>
+        <activity
+            android:name=".PlantActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".PaeoniaLactifloraActivity"
             android:exported="false"
-            android:parentActivityName=".FlowerActivity"/>
+            android:parentActivityName=".FlowerActivity" />
         <activity
             android:name=".FlowerActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".AppleActivity"
             android:exported="false"

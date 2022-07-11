@@ -4,29 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".PlantActivity"
     android:padding="20sp"
-    tools:context=".FlowerActivity"
-    android:background="@drawable/flower">
+    android:background="@drawable/plantc">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp" >
 
         <Button
-            android:id="@+id/rbtn2"
-            android:layout_width="0dp"
+            android:id="@+id/btnplant1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Paeonia Lactiflora"
-            android:backgroundTint="#f04fe5"
+            android:backgroundTint="#29693d"
+            android:text="Astilbe"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

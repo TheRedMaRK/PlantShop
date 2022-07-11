@@ -31,10 +31,17 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.btnFlowers).setOnClickListener {
-            val intent = Intent(this,FlowerActivity::class.java)
+            val intent = Intent(this, FlowerActivity::class.java)
             startActivity(intent)
+        }
+
+            findViewById<Button>(R.id.btnPlants).setOnClickListener {
+                val intent = Intent(this, PlantActivity::class.java)
+                startActivity(intent)
+            }
+
 
         }
+
     }
 
-}
