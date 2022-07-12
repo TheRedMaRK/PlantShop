@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/flower"
     android:padding="20sp"
-    tools:context=".FlowerActivity"
-    android:background="@drawable/flower">
+    tools:context=".FlowerActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -21,8 +21,8 @@
             android:id="@+id/rbtn2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Paeonia Lactiflora"
             android:backgroundTint="#f04fe5"
+            android:text="Paeonia Lactiflora"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

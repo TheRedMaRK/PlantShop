@@ -14,7 +14,7 @@ class FlowerActivity : AppCompatActivity() {
         supportActionBar!!.title = "Paeonia Lactiflora"
 
         findViewById<Button>(R.id.rbtn2).setOnClickListener {
-            val intent = Intent(this,PaeoniaLactifloraActivity::class.java)
+            val intent = Intent(this, PaeoniaLactifloraActivity::class.java)
             startActivity(intent)
         }
     }

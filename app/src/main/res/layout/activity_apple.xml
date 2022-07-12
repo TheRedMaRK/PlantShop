@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AppleActivity"
-    android:padding="30dp">
+    android:padding="30dp"
+    tools:context=".AppleActivity">
 
     <ImageView
         android:id="@+id/imgApple"
@@ -23,11 +23,11 @@
         android:layout_marginTop="32dp"
         android:text="APPLE BRAEBURN"
         android:textColor="#f2670a"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgApple"
-        android:textSize="30sp"
-        android:textStyle="bold"/>
+        app:layout_constraintTop_toBottomOf="@+id/imgApple" />
 
     <TextView
         android:id="@+id/lblDescription"
@@ -37,8 +37,8 @@
         android:text="This New Zealand apple is now one the world’s top commercial selections. It has delicious, crisp, juicy flesh and superb sweet-tart flavour with a noticeably aromatic aftertaste. Excellent keeper."
         android:textColor="#c2601f"
         android:textSize="20sp"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblTitle"
-        android:textStyle="italic"/>
+        app:layout_constraintTop_toBottomOf="@+id/lblTitle" />
 </androidx.constraintlayout.widget.ConstraintLayout>

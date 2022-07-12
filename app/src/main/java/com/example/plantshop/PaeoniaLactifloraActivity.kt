@@ -11,6 +11,5 @@ class PaeoniaLactifloraActivity : AppCompatActivity() {
         setContentView(R.layout.activity_paeonia_lactiflora)
 
 
-
-        }
     }
+}

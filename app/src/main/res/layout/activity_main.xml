@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:background="@drawable/backgrounde"
     android:padding="30sp"
-    android:background="@drawable/backgrounde">
+    tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -32,8 +32,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Flowers"
             android:backgroundTint="#e63c9f"
+            android:text="Flowers"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnFruits" />
@@ -42,8 +42,8 @@
             android:id="@+id/btnFruits"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Fruits"
             android:backgroundTint="#e64717"
+            android:text="Fruits"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

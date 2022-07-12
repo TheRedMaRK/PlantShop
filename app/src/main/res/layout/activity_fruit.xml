@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FruitActivity"
+    android:background="@drawable/fruit_background"
     android:padding="30sp"
-    android:background="@drawable/fruit_background">
+    tools:context=".FruitActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
